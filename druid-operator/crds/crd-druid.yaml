@@ -4,7 +4,7 @@ metadata:
   name: {{ .Values.fullname }}
   labels:
     app.kubernetes.io/name: {{ .Values.name }}
-    helm.sh/chart: {{ .Chart.Name }}-{{ .Chart.Version \| replace "+" "_" }}
+    helm.sh/chart: {{ .Chart.name }}-{{ .Chart.version \| replace "+" "_" }}
     app.kubernetes.io/instance: {{ .Release.Name }}
     app.kubernetes.io/managed-by: {{ .Release.Service }}
 spec:
