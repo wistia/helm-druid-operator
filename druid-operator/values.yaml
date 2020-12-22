@@ -9,8 +9,8 @@ image:
   tag: 0.0.1
   pullPolicy: Always
 
-nameOverride: ""
-fullnameOverride: ""
+name: druid-operator
+fullname: druid-operator
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
